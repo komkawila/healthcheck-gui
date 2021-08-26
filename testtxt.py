@@ -1,0 +1,38 @@
+f = open("demofile3.html", "w")
+f.write("<html>")
+f.write("<head>")
+f.write("<style>p {  font-size:13px;}</style>")
+f.write("</head>")
+f.write("<body>")
+
+f.write("<meta charset=\"UTF-8\"/>")
+f.write("<img  src = \"logo.jpg\" height=\"120\" width=\"140\">")
+f.write("<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Project</b> </p>")
+f.write("<p><b>Five in one health check <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;machine</b> </p>")
+f.write("<p>******************************</p>")
+f.write("<p>หมายเลข : 1</p>")
+f.write(" <p>ฃื่อ : ภานุวัฒน์</p>")
+f.write("<p>นามสกุล : กาวิละ</p>")
+f.write("<p>ที่อยู่ : 12 ม.9 ต.บ้านร้อง อ.งาว</p>")
+f.write("<p>วันเดือนปีเกิด : 14</p>")
+f.write(" <p>ส่วนสูง : 100</p>")
+f.write("   <p>น้ำหนัก : 50</p>")
+f.write(" <p>BMI : 70</p>")
+f.write(" <p>อุณหภูมิ : 34</p>")
+f.write(" <p>ชีพจร : 65</p>")
+f.write(" <P>ความดันโลหิต : 120/80</P>")
+f.write("<p>****************************</p>")
+f.write("  <p>วันที่ตรวจ : 27/8/2562</p>")
+f.write("<p>เวลาตรวจ : 21.05</p>")
+f.write("<p>สรุปผล BMI : ปกติ</p>")
+f.write("<p>สรุปผลชีพจร : ปกติ</p>")
+f.write("<p>สรุปผลความดันโลหิต : ปกติ</p>")
+f.write("<p>สรุปอุณหภูมิร่างกาย : ปกติ</p>")
+
+
+
+f.write("</body>")
+
+f.write("</html>")
+
+f.close()
